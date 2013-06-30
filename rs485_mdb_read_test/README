@@ -1,0 +1,4 @@
+the curent best version of the code to read displays
+uses instant mode and the hardware serial port to buffer data until the serial buffer in ready
+the max485 must be in Rx mode all the time for this to work with certainty
+it shouldn't have too many collisions if you transmit sporadically
